@@ -1,0 +1,169 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AsyncSwift (2.0.4)
+  - BFPaperButton (2.1.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CHTCollectionViewWaterfallLayout (0.9.7):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.7)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.7)
+  - Crashlytics (3.10.8):
+    - Fabric (~> 1.7.12)
+  - Device (3.1.0)
+  - EstimoteSDK (4.27.0)
+  - Fabric (1.7.12)
+  - FBSDKCoreKit (4.37.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.37.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.37.0):
+    - FBSDKCoreKit (~> 4.37.0)
+  - iCarousel (1.8.3)
+  - KSCrash/Core (1.15.18):
+    - KSCrash/Reporting/Filters/Basic
+  - KSCrash/Recording (1.15.18):
+    - KSCrash/Recording/Tools (= 1.15.18)
+  - KSCrash/Recording/Tools (1.15.18)
+  - KSCrash/Reporting/Filters/Base (1.15.18):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.15.18):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - LicensesKit (1.2.3):
+    - StringBuilder (= 1.1.2)
+  - PagingView (0.5.1)
+  - Realm (3.10.0):
+    - Realm/Headers (= 3.10.0)
+  - Realm/Headers (3.10.0)
+  - RealmSwift (3.10.0):
+    - Realm (= 3.10.0)
+  - RxBlocking (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Sentry/Core (3.7.1)
+  - Sentry/KSCrash (3.7.1):
+    - KSCrash/Core (~> 1.15.12)
+  - SevenSwitch (2.1.0)
+  - Socket.IO-Client-Swift (11.1.3):
+    - StarscreamSocketIO (~> 8.0.5)
+  - StarscreamSocketIO (8.0.7)
+  - StringBuilder (1.1.2)
+  - SwiftEventBus (2.1.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AsyncSwift (~> 2.0)
+  - BFPaperButton (~> 2.1)
+  - CHTCollectionViewWaterfallLayout (~> 0.9.0)
+  - Crashlytics (~> 3.10)
+  - Device (~> 3.0)
+  - EstimoteSDK (~> 4.8)
+  - Fabric (~> 1.7)
+  - FBSDKCoreKit (~> 4.26)
+  - FBSDKLoginKit (~> 4.26)
+  - FBSDKShareKit (~> 4.26)
+  - iCarousel (~> 1.8)
+  - LicensesKit (~> 1.2.1)
+  - PagingView (from `https://github.com/breezy-hr/PagingView.git`, commit `cbf49d2d4e`)
+  - RealmSwift (~> 3.10.0)
+  - RxBlocking (~> 3.0)
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - SDWebImage (~> 3.8)
+  - Sentry/Core (from `https://github.com/getsentry/sentry-cocoa.git`, tag `3.7.1`)
+  - Sentry/KSCrash (from `https://github.com/getsentry/sentry-cocoa.git`, tag `3.7.1`)
+  - SevenSwitch (~> 2.0)
+  - Socket.IO-Client-Swift (~> 11.1.0)
+  - SwiftEventBus (~> 2.1)
+  - SwiftyJSON (~> 3.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AsyncSwift
+    - BFPaperButton
+    - Bolts
+    - CHTCollectionViewWaterfallLayout
+    - Crashlytics
+    - Device
+    - EstimoteSDK
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - iCarousel
+    - KSCrash
+    - LicensesKit
+    - Realm
+    - RealmSwift
+    - RxBlocking
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SevenSwitch
+    - Socket.IO-Client-Swift
+    - StarscreamSocketIO
+    - StringBuilder
+    - SwiftEventBus
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  PagingView:
+    :commit: cbf49d2d4e
+    :git: https://github.com/breezy-hr/PagingView.git
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 3.7.1
+
+CHECKOUT OPTIONS:
+  PagingView:
+    :commit: cbf49d2d4e
+    :git: https://github.com/breezy-hr/PagingView.git
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 3.7.1
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  BFPaperButton: a25fdd3ff6898bdbd5cc9b1334ca36adb0296b9f
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
+  Crashlytics: 058dc1ba579f6c100bc60a6878703779bff383c4
+  Device: 8a21a61f5f938a12dadd44d82287996081b6919b
+  EstimoteSDK: 61935c7fbcb9fe93b97b0360351aef66fb1c338d
+  Fabric: d7387db9a31aadff63b147a4b91d982c53afaa4f
+  FBSDKCoreKit: fe5f3474499a81963e11e3f3a5c753d0a95ca2b4
+  FBSDKLoginKit: 2f7249686d1e30ce8a5ef5400eedf50b3e3df332
+  FBSDKShareKit: 52e0083222c38e930eb6878007478326599195c3
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  KSCrash: 5394936f41e5c1ef7b79cf79b30d53299b0c160e
+  LicensesKit: 247eb6eea3f1a82ffd4d6b0550e4e84778496d12
+  PagingView: fc8d62b67a8c1811393ae8466c5a95aa4c5c046f
+  Realm: 85ab9e4f779d66f6e9ffeb118dc25b7f130c96ac
+  RealmSwift: 69121c8b86d0ae005fb779efdb10e606732e1c74
+  RxBlocking: 4f4bd5732e8b952e54ae8a57739bcfb645de12bc
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Sentry: e6365a659cc8cc012f85e7e0b9d5c779c0601fb0
+  SevenSwitch: 5543327829b7bec5b29b73bad5f3cc3f92c1736d
+  Socket.IO-Client-Swift: b8e59ddc16bc3609ca2f49a4b50253f095d535c8
+  StarscreamSocketIO: 00b54e4208481ca5cef089545353aaf126bae16d
+  StringBuilder: 15abc8106929431ff7149dd94b47062699e962b7
+  SwiftEventBus: 9e8f6d8cff2826d66536ec367d17a47299478aa0
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 0f7620f1aa43af7c55c22c0fc8059e4973060707
+
+COCOAPODS: 1.5.0
